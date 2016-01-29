@@ -1,8 +1,5 @@
-/* COLOUR REFERENCES
+/* COLOR REFERENCES
 
-Brown:		#8e7570
-Tan:		#d4c7bb
-Blue Gray:  #b5c6bd
 Gray: #f7f7f7
 Rust: #b34e41
 BLACK: #555555
@@ -49,7 +46,7 @@ img {
 }
 
 .nav.navbar-nav.navbar-right li a:hover {
-	color: black;
+	color: #b34e41;
 }
 
 /* ==== HERO ==== */
@@ -85,6 +82,11 @@ img {
 	margin: 230px 30px 0 0;
 }
 
+#hero .btn-info:hover {
+	background: #f7f7f7;
+	color: #b34e41;
+}
+
 #hero h1 {
 	-webkit-text-stroke-width: 1px;
 	-webkit-text-stroke-color: black;
@@ -95,29 +97,6 @@ img {
 	-webkit-text-stroke-width: 1px;
 	-webkit-text-stroke-color: black;
 }
-
-/*
-.badge.social {
-	background: #493645;
-	font-size: 24px;
-	height: 40px;
-	width: 40px;
-	text-align: center;
-	line-height: 38px;
-	margin: 0 5px 20px 0;
-	-webkit-border-radius: 50px;
-	-moz-border-radius: 50px;
-	border-radius: 50px;
-	color: white;
-}
-
-.badge.social.gplus:hover {
-	background: #db4b39;
-}
-
-.badge.social.linkedin:hover {
-	background: #0077b5;
-}*/
 
 /* ==== LAYOUT ==== */
 .section-header {
@@ -130,7 +109,7 @@ img {
 	padding-top: 100px;
 	text-align: center;
 	margin-top: 100px;
-	margin-bottom: 25px;
+	margin-bottom: 50px;
 }
 
 hr {
@@ -148,7 +127,7 @@ hr {
 
 #contact {
 	background: #f7f7f7;
-	padding: 0 40px 40px;
+	padding: 0 40px 50px;
 }
 
 footer {
@@ -171,9 +150,35 @@ footer p {
 /* ==== SKILLS ==== */
 #skills {
 	background: #f7f7f7;
+	padding-bottom: 50px;
 }
 
+ul {
+	list-style-position: inside;
+}
 /* ==== RESUME ==== */
+#resume h3 {
+	margin-top: 5px;:
+}
+
+#resume .col-sm-4 {
+	text-align: right;
+}
+
+#links {
+	text-align: center;
+	padding-top: 25px;
+}
+
+.btn-default {
+	background: #b34e41;
+	color: #f7f7f7;
+}
+
+.btn-default:hover {
+	background: #555555;
+	color: #f7f7f7;
+}
 
 /* ==== EDUCATION ==== */
 #education img {
@@ -185,6 +190,7 @@ footer p {
 /* ==== PORTFOLIO ==== */
 #portfolio {
 	background: #f7f7f7;
+	padding-bottom: 50px;
 }
 
 .project .container {
@@ -328,8 +334,24 @@ textarea {
 	#hero h2 {
 		font-size: 1.5em;
 	}
+
+	#tech {
+		margin-left: 250px;
+	}
+
+	#resume .col-sm-4 {
+		text-align: left;
+		margin-left: 15px;
+	}
+
+	#resume .col-sm-8 {
+		margin-left: 15px;
+	}
 }
 
 @media screen and (max-width : 568px) {
+	#tech {
+		margin-left: 75px;
+	}
 
 }
