@@ -1,8 +1,9 @@
 /* COLOR REFERENCES
 
 Gray: #f7f7f7
-Rust: #b34e41
-BLACK: #555555
+Rust: #b44127
+Black: #555555
+Purple: #6e0c73
 
 */
 
@@ -38,7 +39,7 @@ img {
 }
 /* ==== NAVBAR ==== */
 .navbar-default {
-	background: #b34e41;
+	background: #b44127;
 }
 
 .nav.navbar-nav.navbar-right li a {
@@ -46,12 +47,16 @@ img {
 }
 
 .nav.navbar-nav.navbar-right li a:hover {
-	color: #b34e41;
+	color: #b44127;
+}
+
+.nabar-brand {
+	margin-bottom: 5px;
 }
 
 /* ==== HERO ==== */
 #hero {
-	background: url('../img/desktop.png') 50% 0;
+	background: url('../img/water.jpeg') 50% 0;
 	background-size: cover;
 	margin-top: 40px;
 	min-height: 850px;
@@ -78,13 +83,13 @@ img {
 }
 
 #hero .btn-info {
-	background: #b34e41;
-	margin: 230px 30px 0 0;
+	background: #b44127;
+	margin: 130px 15px 0;
 }
 
 #hero .btn-info:hover {
-	background: #f7f7f7;
-	color: #b34e41;
+	background: white;
+	color: #b44127;
 }
 
 #hero h1 {
@@ -98,10 +103,15 @@ img {
 	-webkit-text-stroke-color: black;
 }
 
+.profileButton {
+	padding-left: 30px;
+	padding-right: 30px;
+}
+
 /* ==== LAYOUT ==== */
 .section-header {
 	text-align: center;
-	margin-top: 100px;
+	padding-top: 100px;
 	margin-bottom: 25px;
 }
 
@@ -118,20 +128,15 @@ hr {
   margin-top: 35px;
   margin-left: auto;
   margin-right: auto;
-  background-color: #b34e41;
+  background-color: #b44127;
 }
 
 .content {
 	margin-top: 25px;
 }
 
-#contact {
-	background: #f7f7f7;
-	padding: 0 40px 50px;
-}
-
 footer {
-	background: #b34e41;
+	background: #222222;
 	color: white;
 	padding: 5px 0;
 }
@@ -171,7 +176,7 @@ ul {
 }
 
 .btn-default {
-	background: #b34e41;
+	background: #b44127;
 	color: #f7f7f7;
 }
 
@@ -282,6 +287,21 @@ ul {
     margin: 0 auto;
 }
 
+/* ==== CONTACT ==== */
+#contact {
+	background: #b44127;
+	padding: 0 40px 50px;
+}
+
+#contact h2 {
+	color: white;
+}
+
+#contact p {
+	color: white;
+	padding-bottom: 25px;
+}
+
 /* ==== FORMS ==== */
 label {
 	display: block;
@@ -312,6 +332,10 @@ textarea {
 @media screen and (max-width : 991px) {
 	.hero-text{
 		margin-top: 100px;
+	}
+
+	#education .content {
+		padding-left: 25px;
 	}
 }
 
@@ -347,11 +371,20 @@ textarea {
 	#resume .col-sm-8 {
 		margin-left: 15px;
 	}
+
+	#profile p {
+		padding: 0 15px;
+	}
+
 }
 
 @media screen and (max-width : 568px) {
 	#tech {
 		margin-left: 75px;
+	}
+
+	#education .content {
+		padding-left: 25px;
 	}
 
 }
