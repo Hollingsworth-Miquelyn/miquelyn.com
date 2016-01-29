@@ -54,6 +54,14 @@ img {
 	margin-bottom: 5px;
 }
 
+.top-social {
+	margin-left: 40%;
+}
+
+.linkedin {
+	color: #4875b4;
+}
+
 /* ==== HERO ==== */
 #hero {
 	background: url('../img/water.jpeg') 50% 0;
