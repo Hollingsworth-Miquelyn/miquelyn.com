@@ -154,7 +154,7 @@ footer p {
 
 /* ==== SKILLS ==== */
 #skills {
-	background: #f7f7f7;
+	background: url('../img/tile.jpg') top left repeat;
 	padding-bottom: 50px;
 }
 
@@ -177,12 +177,12 @@ ul {
 
 .btn-default {
 	background: #b44127;
-	color: #f7f7f7;
+	color: white;
 }
 
 .btn-default:hover {
 	background: #555555;
-	color: #f7f7f7;
+	color: white;
 }
 
 /* ==== EDUCATION ==== */
@@ -194,7 +194,7 @@ ul {
 
 /* ==== PORTFOLIO ==== */
 #portfolio {
-	background: #f7f7f7;
+	background: url('../img/tile.jpg') top left repeat;
 	padding-bottom: 50px;
 }
 
