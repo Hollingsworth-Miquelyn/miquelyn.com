@@ -38,9 +38,10 @@ img {
 	max-width: 100%;
 }
 /* ==== NAVBAR ==== */
-.navbar-default {
+
+/*.navbar-inverse {
 	background: #b44127;
-}
+}*/
 
 .nav.navbar-nav.navbar-right li a {
 	color: white;
@@ -50,7 +51,7 @@ img {
 	color: #b44127;
 }
 
-.nabar-brand {
+.navbar-brand {
 	margin-bottom: 5px;
 }
 
@@ -333,6 +334,11 @@ textarea {
 	box-sizing: border-box;
 	width: 100%;
 	padding: 6px 12px;
+}
+
+/* ==== MODAL ==== */
+.modal-content{
+	background: url('../img/tile.jpg') top left repeat;
 }
 
 /* ==== MEDIA QUERIES ==== */
