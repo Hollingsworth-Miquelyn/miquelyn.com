@@ -16,12 +16,25 @@
 <!-- FOOTER
 ================================================== -->
 <footer>
-   <div class="container">
-      <div class="col-sm-12">
-         <p class="pull-right">&copy; 2016 Miquelyn Hollingsworth</p>
-      </div><!-- end col -->
-   </div><!-- container -->
-</footer>
+      <div class="container">
+         <div class="col-sm-3">
+            <p><a href="/"><img src="<?php bloginfo('stylesheet_directory') ?>/assets/img/logo.png" alt="MH initials"></a></p>
+         </div><!-- end col -->
+         <div class="col-sm-6">
+            <?php
+               wp_nav_menu( array(
+
+                  'theme_location'		=> 'footer',
+                  'container'				=> 'nav',
+                  'menu_class'			=> 'list-unstyled list-inline'
+               ))
+            ?>
+         </div><!-- end col -->
+         <div class="col-sm-3">
+            <p class="pull-right"><?php bloginfo('name'); ?> &copy; <?php echo date('Y'); ?></p>
+         </div><!-- end col -->
+      </div><!-- container -->
+   </footer>
 
 <!-- MODAL
 ================================================== -->

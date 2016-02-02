@@ -651,7 +651,6 @@ ul {
 
 #contact p {
 	color: white;
-	padding-bottom: 25px;
 }
 
 /* ==== FORMS ==== */
@@ -677,6 +676,15 @@ textarea {
 	box-sizing: border-box;
 	width: 100%;
 	padding: 6px 12px;
+}
+
+/* ==== FOOTER ==== */
+footer a {
+	color: white;
+}
+
+footer a:hover {
+	color: #b44127;
 }
 
 /* ==== MODAL ==== */
